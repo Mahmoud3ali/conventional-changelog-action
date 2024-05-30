@@ -1,4 +1,4 @@
-const core = require('@actions/core')
+adconst core = require('@actions/core')
 const conventionalRecommendedBump = require('conventional-recommended-bump')
 const path = require('path')
 
