@@ -204,7 +204,7 @@ async function run() {
         }
       }
 
-      await git.add('.')
+      await git.add('CHANGELOG.md package.json')
       await git.commit(gitCommitMessage.replace('{version}', gitTag))
     }
 
